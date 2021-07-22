@@ -4262,7 +4262,7 @@ button.btn--pill {
   color: white;
   border-radius: var(--border-radius);
   padding: 0 1.4rem;
-  position: absolute;
+  /* position: absolute; */
   top: var(--vspace-1_25);
   left: 4rem;
 }
