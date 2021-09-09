@@ -265,11 +265,13 @@
                         <strong>Web Frameworks:</strong> 
                         <li id="tab">Django</li>
                         <li id="tab">Flask</li>
+                        <li id="tab">Bottle</li>
                     </div>
 
                     <div id="float1">
                         <strong>Databases:</strong> 
                         <li id="tab">MongoDB</li>
+                        <li id="tab">SQLite</li>
                     </div>
 
                     <div class="clear"></div>
@@ -353,6 +355,11 @@
                 </a>
             </div> <!-- end folio-item -->
 
+            <div class="column folio-item">
+                <a href="#modal-05" class="folio-item__thumb">
+                    <img class="port_img" src="images/portfolio/globe.png" alt="">
+                </a>
+            </div> <!-- end folio-item -->
 
         </div> <!-- end folio-list -->
 
@@ -391,7 +398,7 @@
                     <a href="https://github.com/alexmarozick/RapAnalysis" class="modal-popup__details">Project Repo</a>
 
                     <ul class="modal-popup__cat">
-                        <li>Frontend Development</li>
+                        <li>Full Stack</li>
                     </ul>
                 </div>
             </div>
@@ -409,7 +416,7 @@
 
 
                     <ul class="modal-popup__cat">
-                        <li>Frontend Development</li>
+                        <li>Full Stack</li>
                     </ul>
                 </div>
             </div>
@@ -431,6 +438,26 @@
 
                     <ul class="modal-popup__cat">
                         <li>Game Programming</li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-05" hidden>
+            <div class="modal-popup">    
+                <div class="modal-popup__desc">
+                    <br>
+                    <h5>US Temperature</h5>
+                    <p>This web-app is used to see live weather updates for any US city. Using BeautifulSoup, the temperatures are scraped off https://www.wunderground.com/weather/us/ 
+                        by a script which is scheduled to run every 5 minutes through Windows Task Scheduler. The data is loaded into an SQLite database and the results
+                        are queried and displayed on a webpage. The frontend was designed using streamlit and the HTTP REST endpoints were handled using the web-framework, Bottle. 
+                    </p>
+                    <p>Used Python, SQLite, Streamlit, Bottle, Task Scheduler and BeautifulSoup</p>
+                    <!-- <a href="https://play.unity.com/mg/other/builds-nq-1" class="modal-popup__details">Project Demo</a> -->
+                    <a href="https://github.com/alexmarozick/WeatherAPI" class="modal-popup__details">Project Repo</a>
+
+                    <ul class="modal-popup__cat">
+                        <li>Full Stack</li>
                     </ul>
                 </div>
             </div>
